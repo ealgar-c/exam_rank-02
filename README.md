@@ -7,8 +7,8 @@ Práctica para el examen rank 02
 - En caso de fallar el examen, la proxima vez que se intente se reiniciara a nivel 1 y las preguntas volverán a ser elegidas
 
 # LISTA DE EJERCICIOS DEL EXAMEN
-
-### Level 1
+ <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"><repeat_alpha /></a>
+### Level 00
 :question: Función/Programa aleatorio entre los 12 siguientes:
 ```
   - first_word
@@ -24,7 +24,7 @@ Práctica para el examen rank 02
   - search_and_replace
   - ulstr
 ```
-### Level 2
+### Level 01
 :question: Función/Programa aleatorio entre los 20 siguientes:
 ```
   - alpha_mirror
@@ -48,7 +48,7 @@ Práctica para el examen rank 02
   - union
   - wdmatch 
 ```
-### Level 3
+### Level 02
 :question: Función/Programa aleatorio entre los 15 siguientes:
 ```
   - add_prime_sum
@@ -67,7 +67,7 @@ Práctica para el examen rank 02
   - str_capitalizer
   - tab_mult 
 ```
-### Level 4
+### Level 03
 :question: Función/Programa aleatorio entre los 10 siguientes:
 ```
   - flood_fill
