@@ -20,7 +20,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"> repeat_alpha</a>
   - rev_print
   - rot_13
-  - rotone
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rotone"> rotone</a>
   - search_and_replace
   - ulstr
 
@@ -30,7 +30,7 @@ Práctica para el examen rank 02
   - alpha_mirror
   - camel_to_snake
   - do_op
-  - ft_atoi
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_atoi"> ft_atoi</a>
   - ft_strcmp
   - ft_strcspn
   - ft_strdup
@@ -62,7 +62,7 @@ Práctica para el examen rank 02
   - lcm
   - paramsum
   - pgcd
-  - print_hex
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/print_hex"> print_hex</a>
   - rstr_capitalizer
   - str_capitalizer
   - tab_mult 
@@ -79,5 +79,5 @@ Práctica para el examen rank 02
   - rev_wstr
   - rostring
   - sort_int_tab
-  - sort_list
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/sort_list"> sort_list</a>
 
