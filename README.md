@@ -14,7 +14,7 @@ Práctica para el examen rank 02
   - first_word
   - fizzbuzz
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strcpy"> ft_strcpy</a>
-  - ft_strlen
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strlen"> ft_strlen</a>
   - ft_swap
   - putstr
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"> repeat_alpha</a>
@@ -40,7 +40,7 @@ Práctica para el examen rank 02
   - inter
   - is_power_of_2
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/last_word"> last_word</a>
-  - max
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/max"> max</a>
   - print_bits
   - reverse_bits
   - snake_to_camel
@@ -58,7 +58,7 @@ Práctica para el examen rank 02
   - ft_list_size
   - ft_range
   - ft_rrange
-  - hidenp
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/hidenp"> hidenp</a>
   - lcm
   - paramsum
   - pgcd
@@ -76,7 +76,7 @@ Práctica para el examen rank 02
   - ft_list_foreach
   - ft_list_remove_if
   - ft_split
-  - rev_wstr
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/rev_wstr"> rev_wstr</a>
   - rostring
   - sort_int_tab
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/sort_list"> sort_list</a>
