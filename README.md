@@ -13,7 +13,7 @@ Práctica para el examen rank 02
 
   - first_word
   - fizzbuzz
-  - ft_strcpy
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strcpy"> ft_strcpy</a>
   - ft_strlen
   - ft_swap
   - putstr
@@ -31,7 +31,7 @@ Práctica para el examen rank 02
   - camel_to_snake
   - do_op
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_atoi"> ft_atoi</a>
-  - ft_strcmp
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_strcmp"> ft_strcmp</a>
   - ft_strcspn
   - ft_strdup
   - ft_strpbrk
@@ -53,7 +53,7 @@ Práctica para el examen rank 02
 
   - add_prime_sum
   - epur_str
-  - expand_str
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/expand_str"> expand_str</a>
   - ft_atoi_base
   - ft_list_size
   - ft_range
