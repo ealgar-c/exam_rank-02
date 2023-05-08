@@ -10,7 +10,7 @@ Práctica para el examen rank 02
  
 ### Level 00
 :question: Función/Programa aleatorio entre los 12 siguientes:
-```
+
   - first_word
   - fizzbuzz
   - ft_strcpy
@@ -23,10 +23,10 @@ Práctica para el examen rank 02
   - rotone
   - search_and_replace
   - ulstr
-```
+
 ### Level 01
 :question: Función/Programa aleatorio entre los 20 siguientes:
-```
+
   - alpha_mirror
   - camel_to_snake
   - do_op
@@ -47,10 +47,10 @@ Práctica para el examen rank 02
   - swap_bits
   - union
   - wdmatch 
-```
+
 ### Level 02
 :question: Función/Programa aleatorio entre los 15 siguientes:
-```
+
   - add_prime_sum
   - epur_str
   - expand_str
@@ -66,10 +66,10 @@ Práctica para el examen rank 02
   - rstr_capitalizer
   - str_capitalizer
   - tab_mult 
-```
+
 ### Level 03
 :question: Función/Programa aleatorio entre los 10 siguientes:
-```
+
   - flood_fill
   - fprime
   - ft_itoa
@@ -80,4 +80,4 @@ Práctica para el examen rank 02
   - rostring
   - sort_int_tab
   - sort_list
-```
+
