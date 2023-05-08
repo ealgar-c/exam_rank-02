@@ -39,7 +39,7 @@ Práctica para el examen rank 02
   - ft_strspn
   - inter
   - is_power_of_2
-  - last_word
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/last_word"> last_word</a>
   - max
   - print_bits
   - reverse_bits
