@@ -1,4 +1,4 @@
-# exam_rank-02
+exam_rank-02
 Práctica para el examen rank 02
 
 # DETALLES DEL EXAMEN
@@ -15,7 +15,7 @@ Práctica para el examen rank 02
   - fizzbuzz
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strcpy"> ft_strcpy</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strlen"> ft_strlen</a>
-  - ft_swap
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_swap"> ft_swap</a> 
   - putstr
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"> repeat_alpha</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rev_print"> rev_print</a>
@@ -23,11 +23,11 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rotone"> rotone</a>
   - search_and_replace
   - ulstr
-
+ 
 ### Level 01
 :question: Función/Programa aleatorio entre los 20 siguientes:
 
-  - alpha_mirror
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/alpha_mirror"> alpha_mirror</a>
   - camel_to_snake
   - do_op
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_atoi"> ft_atoi</a>
@@ -71,7 +71,7 @@ Práctica para el examen rank 02
 :question: Función/Programa aleatorio entre los 10 siguientes:
 
   - flood_fill
-  - fprime
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/fprime"> fprime</a>
   - ft_itoa
   - ft_list_foreach
   - ft_list_remove_if
