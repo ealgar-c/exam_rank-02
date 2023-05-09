@@ -18,7 +18,7 @@ Práctica para el examen rank 02
   - ft_swap
   - putstr
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"> repeat_alpha</a>
-  - rev_print
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rev_print"> rev_print</a>
   - rot_13
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rotone"> rotone</a>
   - search_and_replace
@@ -56,7 +56,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/expand_str"> expand_str</a>
   - ft_atoi_base
   - ft_list_size
-  - ft_range
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/ft_range"> ft_range</a>
   - ft_rrange
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/hidenp"> hidenp</a>
   - lcm
