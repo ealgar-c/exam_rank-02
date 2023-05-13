@@ -1,4 +1,4 @@
-exam_rank-02
+z<exam_rank-02
 Práctica para el examen rank 02
 
 # DETALLES DEL EXAMEN
@@ -11,7 +11,7 @@ Práctica para el examen rank 02
 ### Level 00
 :question: Función/Programa aleatorio entre los 12 siguientes:
 
-  - first_word
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/first_word"> first_word</a>
   - fizzbuzz
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strcpy"> ft_strcpy</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strlen"> ft_strlen</a>
@@ -28,7 +28,7 @@ Práctica para el examen rank 02
 :question: Función/Programa aleatorio entre los 20 siguientes:
 
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/alpha_mirror"> alpha_mirror</a>
-  - camel_to_snake
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/camel_to_snake"> camel_to_snake</a>
   - do_op
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_atoi"> ft_atoi</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_strcmp"> ft_strcmp</a>
@@ -61,9 +61,9 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/hidenp"> hidenp</a>
   - lcm
   - paramsum
-  - pgcd
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/pgcd"> pgcd</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/print_hex"> print_hex</a>
-  - rstr_capitalizer
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/rstr_capitalizer"> rstr_capitalizer</a>
   - str_capitalizer
   - tab_mult 
 
