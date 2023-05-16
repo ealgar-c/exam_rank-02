@@ -1,4 +1,4 @@
-z<exam_rank-02
+exam_rank-02
 Práctica para el examen rank 02
 
 # DETALLES DEL EXAMEN
