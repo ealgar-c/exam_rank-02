@@ -41,7 +41,7 @@ Práctica para el examen rank 02
   - is_power_of_2
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/last_word"> last_word</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/max"> max</a>
-  - print_bits
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/print_bits"> print_bits</a>
   - reverse_bits
   - snake_to_camel
   - swap_bits
@@ -51,7 +51,7 @@ Práctica para el examen rank 02
 ### Level 02
 :question: Función/Programa aleatorio entre los 15 siguientes:
 
-  - add_prime_sum
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/add_prime_sum"> add_prime_sum</a>
   - epur_str
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/expand_str"> expand_str</a>
   - ft_atoi_base
