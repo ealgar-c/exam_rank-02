@@ -12,17 +12,17 @@ Práctica para el examen rank 02
 :question: Función/Programa aleatorio entre los 12 siguientes:
 
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/first_word"> first_word</a>
-  - fizzbuzz
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/fizzbuzz"> fizzbuzz</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strcpy"> ft_strcpy</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_strlen"> ft_strlen</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ft_swap"> ft_swap</a> 
   - putstr
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/repeat_alpha"> repeat_alpha</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rev_print"> rev_print</a>
-  - rot_13
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rot_13">  rot_13</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rotone"> rotone</a>
   - search_and_replace
-  - ulstr
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ulstr"> ulstr</a> 
  
 ### Level 01
 :question: Función/Programa aleatorio entre los 20 siguientes:
@@ -33,7 +33,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_atoi"> ft_atoi</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_strcmp"> ft_strcmp</a>
   - ft_strcspn
-  - ft_strdup
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/ft_strdup"> ft_strdup</a>
   - ft_strpbrk
   - ft_strrev
   - ft_strspn
@@ -46,7 +46,7 @@ Práctica para el examen rank 02
   - snake_to_camel
   - swap_bits
   - union
-  - wdmatch 
+  - wdmatch
 
 ### Level 02
 :question: Función/Programa aleatorio entre los 15 siguientes:
@@ -64,7 +64,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/pgcd"> pgcd</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/print_hex"> print_hex</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/rstr_capitalizer"> rstr_capitalizer</a>
-  - str_capitalizer
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/str_capitalizer"> str_capitalizer</a>
   - tab_mult 
 
 ### Level 03
@@ -75,7 +75,7 @@ Práctica para el examen rank 02
   - ft_itoa
   - ft_list_foreach
   - ft_list_remove_if
-  - ft_split
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/ft_split"> ft_split</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/rev_wstr"> rev_wstr</a>
   - rostring
   - sort_int_tab
