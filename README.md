@@ -21,7 +21,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rev_print"> rev_print</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rot_13">  rot_13</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/rotone"> rotone</a>
-  - search_and_replace
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/search_and_replace"> search_and_replace</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level00/ulstr"> ulstr</a> 
  
 ### Level 01
@@ -52,7 +52,7 @@ Práctica para el examen rank 02
 :question: Función/Programa aleatorio entre los 15 siguientes:
 
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/add_prime_sum"> add_prime_sum</a>
-  - epur_str
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/epur_str"> epur_str</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/expand_str"> expand_str</a>
   - ft_atoi_base
   - ft_list_size
@@ -77,7 +77,7 @@ Práctica para el examen rank 02
   - ft_list_remove_if
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/ft_split"> ft_split</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/rev_wstr"> rev_wstr</a>
-  - rostring
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/rostring"> rostring</a>
   - sort_int_tab
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/sort_list"> sort_list</a>
 
