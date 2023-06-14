@@ -44,7 +44,7 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/print_bits"> print_bits</a>
   - reverse_bits
   - snake_to_camel
-  - swap_bits
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level01/swap_bits"> swap_bits</a>
   - union
   - wdmatch
 
@@ -65,12 +65,12 @@ Práctica para el examen rank 02
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/print_hex"> print_hex</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/rstr_capitalizer"> rstr_capitalizer</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/str_capitalizer"> str_capitalizer</a>
-  - tab_mult 
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level02/tab_mult"> tab_mult</a> 
 
 ### Level 03
 :question: Función/Programa aleatorio entre los 10 siguientes:
 
-  - flood_fill
+  - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/flood_fill"> flood_fill</a>
   - <a href="https://github.com/ealgar-c/exam_rank-02/tree/main/level03/fprime"> fprime</a>
   - ft_itoa
   - ft_list_foreach
