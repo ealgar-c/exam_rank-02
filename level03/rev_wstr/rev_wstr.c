@@ -1,106 +1,59 @@
-#include <stdlib.h>
 #include <unistd.h>
 
-int	word_count(char * str)
+int	ft_strlen(char *str)
 {
-	int i;
-	int space_counter;
-
-	space_counter = 0;
-	i = 1;
-	while (str[i])
-	{
-		if (str[i]== ' ' || str[i] == 9)
-			space_counter += 1;
-		i++;
-	}
-	return (space_counter);
-}
-
-int	word_len(char *str)
-{
-	int i;
+	int	i;
 
 	i = 0;
-	while (str[i] != ' ' || str[i] != 9)
+	while (str[i])
 		i++;
 	return (i);
 }
 
-char	*ft_substr(char *str, int start, int len)
+int	get_word_length(char *str, int i)
 {
-	int 	i;
-	char	*ret;
+	int	w_l;
 
-	i = 0;
-	ret = malloc(len * sizeof(char));
-	while (i < len)
+	w_l = 0;
+	while (str[i] > 32 && str[i] != '\0')
 	{
-		ret[i] = str[start + i];
-		i++;
+		w_l++;
+		i--;
 	}
-	return (ret);
+	return (w_l);
 }
 
-char	**ft_split(char *str)
+int main(int ac, char **av)
 {
-	char	**ret;
-	int		w_count;
-	int		w_len;
 	int		i;
-	int		k;
+	char	*str;
+	int		w_l;
+	int		w_start;
+	int		w_sc;
 
-	i = 0;
-	k = 0;
-	w_count = word_count(str);
-	ret = malloc(w_count * sizeof(char *));
-	while(str[i])
+	if (ac == 2)
 	{
-		if (str[i] != ' ' || str[i] != 9)
+		str = av[1];
+		i = ft_strlen(str) - 1;
+		while (i >= 0)
 		{
-			w_len = word_len(&str[i]);
-			ret[k] = ft_substr(str, i, i + w_len);
-		   	k++;	
-			i += w_len;
+			w_l = get_word_length(str, i);
+			w_start = i - w_l;
+			w_sc = w_start;
+			while (w_start <= i)
+			{
+				if (str[w_start] != '\0' && str[w_start] != ' ')
+					write(1, &str[w_start], 1);
+				w_start++;
+			}
+			i = w_sc;
+			if (str[i] == ' ')
+			{
+				write(1, " ", 1);
+				i--;
+			}
 		}
-		else
-			i++;
 	}
-	return (ret);
-}
-
-void ft_putstr(char *str)
-{
-	int i;
-
-	i = 0;
-	while (str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-}
-
-int	main(int argc, char **argv)
-{
-	int		i;
-	int		w_count;
-	char	*str_orig;
-	char	**str_rev;
-
-	i = 0;
-	if (argc != 2)
-	{
-		write(1, "\n", 1);
-		return (0);
-	}
-	str_orig = argv[1];
-	w_count = word_count(str_orig);
-	str_rev = ft_split(str_orig);
-	while (w_count > 0)
-	{
-		ft_putstr(str_rev[w_count]);
-		w_count--;
-	}
+	write(1, "\n", 1);
 	return (0);
 }
