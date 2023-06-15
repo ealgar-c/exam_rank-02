@@ -1,91 +1,72 @@
 #include <stdlib.h>
 #include <stdbool.h>
-#include <stdio.h>
+
+int	wordlen(char *str, int i)
+{
+	int	c;
+
+	c = 0;
+	while (str[i] > 32)
+	{
+		c++;
+		i++;
+	}
+	return (c);
+}
 
 bool	ft_separator(char c)
 {
-	if (c == ' ')
+	if (c == ' ' || c == '\t' || c == '\n')
 		return (true);
-	else if (c >= 9 && c <= 13)
-		return (true);
-	else
-		return (false);
+	return (false);
 }
 
-int	ft_wordlen(char *str)
+int wordcount(char *str)
 {
-	int	i;
+	int i;
+	int cnt;
 
 	i = 0;
-	while (str[i] != '\0' && !ft_separator(str[i]))
-		++i;
-	return (i);
+	cnt = 0;
+	while (str[i])
+	{
+		while (str[i] && ft_separator(str[i]))
+			i++;
+		if (str[i] && !ft_separator(str[i]))
+		{
+			while (str[i] && !ft_separator(str[i]))
+				i++;
+			cnt++;
+		}
+	}
+	return (cnt);
 }
 
-char	*wordup(char *str)
+char 	**ft_split(char *str)
 {
-	int		i;
-	int		len;
-	char	*word;
+	int i;
+	int j;
+	int k;
+	char **tab;
 
-	len = ft_wordlen(str);
 	i = 0;
-	word = malloc(sizeof(char) * (len + 1));
-	if (!word)
+	j = 0;
+	if (!(tab = malloc(sizeof(char *) * (wordcount(str) + 1))))
 		return (NULL);
-	word[len] = '\0';
-	while (i < len)
+	while (str[i])
 	{
-		word[i] = str[i];
-		++i;
+		while (str[i] && ft_separator(str[i]))
+			i++;
+		if (str[i])
+		{
+			k = 0;
+			if (!(tab[j] = malloc(sizeof(char) * (wordlen(str, i) + 1))))
+				return (NULL);
+			while (str[i] && !ft_separator(str[i]))
+				tab[j][k++] = str[i++];
+			tab[j++][k] = '\0';
+		}
 	}
-	return (word);
-}
-
-void	fill_words(char **array, char *str)
-{
-	int	word_index;
-
-	word_index = 0;
-	while (ft_separator(*str))
-		++str;
-	while (*str != '\0')
-	{
-		array[word_index] = wordup(str);
-		++word_index;
-		while (*str != '\0' && !ft_separator(*str))
-			++str;
-		while (ft_separator(*str))
-			++str;
-	}
-}
-
-int	count_words(char *str)
-{
-	int	num_words;
-
-	num_words = 0;
-	while (ft_separator(*str))
-		++str;
-	while (*str != '\0')
-	{
-		++num_words;
-		while (*str != '\0' && !ft_separator(*str))
-			++str;
-		while (ft_separator(*str))
-			++str;
-	}
-	return (num_words);
-}
-
-char	**ft_split(char *str)
-{
-	int		num_words;
-	char	**array;
-
-	num_words = count_words(str);
-	array = malloc(sizeof(char *) * (num_words + 1));
-	array[num_words] = 0;
-	fill_words(array, str);
-	return (array);
+	tab[j] = NULL;
+	return (tab);
 }
